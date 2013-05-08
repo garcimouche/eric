@@ -25,6 +25,18 @@
                <scope>runtime</scope>
           </dependency>
           <dependency>
+               <groupId>junit</groupId>
+               <artifactId>junit</artifactId>
+               <version>4.10</version>
+               <scope>test</scope>
+          </dependency>
+          <dependency>
+               <groupId>com.h2database</groupId>
+               <artifactId>h2</artifactId>
+               <version>1.3.171</version>
+               <scope>test</scope><!-- for production code put the dependency to compile or runtime -->
+          </dependency>
+          <dependency>
                <groupId>log4j</groupId>
                <artifactId>log4j</artifactId>
                <version>1.2.17</version>
